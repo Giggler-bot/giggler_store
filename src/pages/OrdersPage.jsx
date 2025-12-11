@@ -1,4 +1,4 @@
-import { icons, products } from "../constant";
+import { icons, productImage } from "../constant";
 
 import "../styles/pages/orders.css";
 
@@ -34,7 +34,7 @@ export function OrdersPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src={products.socks} />
+                <img src={productImage.socks} />
               </div>
 
               <div className="product-details">
@@ -60,7 +60,7 @@ export function OrdersPage() {
               </div>
 
               <div className="product-image-container">
-                <img src={products.tshirtTeal} />
+                <img src={productImage.tshirtTeal} />
               </div>
 
               <div className="product-details">
@@ -108,7 +108,7 @@ export function OrdersPage() {
 
             <div className="order-details-grid">
               <div className="product-image-container">
-                <img src={products.basketball} />
+                <img src={productImage.basketball} />
               </div>
 
               <div className="product-details">

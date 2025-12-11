@@ -111,7 +111,7 @@ export const infoImages = {
   clothingSizeChart,
 };
 
-export const products = {
+export const productImage = {
   toaster,
   cookingSet,
   tshirtTeal,
@@ -162,5 +162,5 @@ export default {
   ratings,
   logos,
   infoImages,
-  products,
+  productImage,
 };

@@ -1,4 +1,4 @@
-import { icons, logos, products } from '../constant';
+import { icons, logos, productImage } from '../constant';
 import '../styles/pages/tracking.css'
 
 export function TrackingPage() {
@@ -49,7 +49,7 @@ export function TrackingPage() {
 
           <img
             className="product-image"
-            src={products.socks}
+            src={productImage.socks}
           />
 
           <div className="progress-labels-container">

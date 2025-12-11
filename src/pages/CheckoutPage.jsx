@@ -1,4 +1,4 @@
-import { icons, logos, products } from '../constant';
+import { icons, logos, productImage } from '../constant';
 
 import '../styles/pages/checkout/checkout.css'
 import '../styles/pages/checkout/checkout-header.css'
@@ -41,7 +41,7 @@ export function CheckoutPage() {
               <div className="cart-item-details-grid">
                 <img
                   className="product-image"
-                  src={products.socks}
+                  src={productImage.socks}
                 />
 
                 <div className="cart-item-details">
@@ -110,7 +110,7 @@ export function CheckoutPage() {
               <div className="cart-item-details-grid">
                 <img
                   className="product-image"
-                  src={products.basketball}
+                  src={productImage.basketball}
                 />
 
                 <div className="cart-item-details">
